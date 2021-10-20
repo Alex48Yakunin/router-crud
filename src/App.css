@@ -1,0 +1,76 @@
+.App {
+  max-width: 500px;
+  margin: 20px;
+}
+textarea {
+  padding: 10px;
+  min-height: 100px;
+  width: 100%;
+}
+
+.post {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.post-wrap + .post-wrap {
+  margin-top: 20px;
+}
+
+.user {
+  display: flex;
+}
+
+.user__ava {
+  margin-right: 15px;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: green;
+}
+
+.post__header {
+  margin-bottom: 20px;
+}
+
+.post_edit .post__header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cancel {
+  cursor: pointer;
+}
+
+.post-date {
+  margin: 0 10px;
+}
+
+.post__content {
+  margin-bottom: 20px;
+}
+
+.post__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post__footer > span {
+  cursor: pointer;
+}
+
+.post__interaction {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.posts-list__header {
+  margin-bottom: 20px;
+}
